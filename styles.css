@@ -78,5 +78,6 @@ a:visited {color: rgba(255, 255, 255, 0.2);}
 
 a:hover {color: pink;}
 
-div.copyright {font-size: 5px; color: rgba(255, 255, 255, 0.2);}
+.copyright {font-size: 5px; color: rgba(255, 255, 255, 0.2);}
 
+a.text-nowrap {color: #005EB8;}
