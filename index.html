@@ -10,8 +10,15 @@
 
   <div class="container">
     <div class="card" data-tilt>
-      <h1>Shabbat Start</h1>
-      <p>4:55 PM</p>
+
+      <div id="hebcal-shabbat"></div>
+      <script>
+      fetch('https://www.hebcal.com/shabbat?cfg=i2&geonameid=5128581&ue=on&b=18&M=on&lg=a&tgt=_top')
+        .then(response => response.text())
+        .then(data => document.getElementById('hebcal-shabbat').innerHTML = data);
+      </script>
+
+
     </div>
   
 
