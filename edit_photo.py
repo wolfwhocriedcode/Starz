@@ -51,8 +51,7 @@ def overlay_stars(image_path):
 
     # Display the result or save it
     # Save the edited image
-    cv2.imwrite('edited_image_with_gradient.jpg', result_image)
+    cv2.imwrite('cropped_image.jpg', result_image[:-500,:,:])
 
 # Example usage
 overlay_stars("edited_image_with_gradient.jpg")
-
